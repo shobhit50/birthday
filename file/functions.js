@@ -56,7 +56,7 @@ function timeElapse(date) {
 	var result = "Days <span class=\"digit\">" + days + "</span> Hours <span class=\"digit\">" + hours + "</span> Minutes <span class=\"digit\">" + minutes + "</span> Seconds <span class=\"digit\">" + seconds + "</span>";
 	$("#clock").html(result);
 
-	var text = "THE WORLD JUST GOT LUCKIER SINCE ";
+	var text = "THE DAY MY PRINCESS ARRIVED IN THE WORLD SINCE ";
 	$("#message-box").html(text);
 
 }

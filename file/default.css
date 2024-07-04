@@ -1,7 +1,10 @@
 body {
+  height: 100vh;
   margin: 0;
   padding: 0;
   /* background-image: url('../img2.png'); */
+  background: linear-gradient(to bottom, rgb(8 7 7 / 80%) 0%, rgb(255 255 255 / 60%) 100%);
+  backdrop-filter: blur(5px);
   background-size: cover;
   background-repeat: no-repeat;
   font-size: 14px;
@@ -28,20 +31,21 @@ a {
 }
 
 #text {
-  width: 272px;
+  /* width: 272px; */
   height: 560px;
-  left: 188px;
-  top: 80px;
+  /* left: 188px; */
+  /* top: 80px; */
   position: absolute;
 }
 
 #code {
+  font-family: sans-serif;
   display: none;
-  color: rgb(196, 255, 255);
+  color: rgb(255, 255, 255);
   font-size: 16px;
-  margin-top: 70px;
-  line-height: 25px;
-  font-size: larger;
+  /* margin-top: 70px; */
+  line-height: 30px;
+  font-size: 1.5rem;
   font-weight: bolder;
 }
 
